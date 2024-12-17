@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: example-user
+  annotations:
+    graph.microsoft.com/user-id: "ff9ad6e4-9d35-4c47-9df3-91fe207bf16c"
+spec:
+  profile:
+    displayName: Example User
+    email: tatianasmunoz@gmail.com
+  memberOf: []
